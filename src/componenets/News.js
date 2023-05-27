@@ -6,12 +6,18 @@ export class News extends Component {
     return (
       <div className='container my-3'>
        <h1>  News-Jack Top headlines</h1>
-       <NewsItem title="my title" description = "desc"/>
+
+        <div className='row'>
+        <div className='col-md-4'>
+       <NewsItem title="my title" description = "desc"/> </div>
+       <div className='col-md-4'>
+       <NewsItem title="my title" description = "desc"/></div>
+       <div className='col-md-4'>
+       <NewsItem title="my title" description = "desc"/></div>
+       </div>
+       {/* <NewsItem/>
        <NewsItem/>
-       <NewsItem/>
-       <NewsItem/>
-       <NewsItem/>
-       <NewsItem/>
+       <NewsItem/> */}
        
       </div>
     )

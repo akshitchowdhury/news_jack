@@ -55,7 +55,10 @@ export class News extends Component {
     super();
 
     this.state = {
-      articles : this.articles
+      articles : this.articles,
+      loading : false
+    
+    
     }
   }
  
@@ -67,11 +70,11 @@ export class News extends Component {
 
         <div className='row'>
         <div className='col-md-4'>
-       <NewsItem title="my title" description = "desc" imageurl ="https://i.pinimg.com/736x/13/c4/23/13c423eeeede92d2b1f364488b29ffbb.jpg" /> </div>
+       <NewsItem title="my title" description = "desc" imageurl ="https://i.pinimg.com/736x/13/c4/23/13c423eeeede92d2b1f364488b29ffbb.jpg" newsurl = "TODO"/> </div>
        <div className='col-md-4'>
-       <NewsItem title="my title" description = "desc"/></div>
+       <NewsItem title="my title" description = "desc" imageurl ="https://i.pinimg.com/736x/13/c4/23/13c423eeeede92d2b1f364488b29ffbb.jpg" newsurl = "TODO"/> </div>
        <div className='col-md-4'>
-       <NewsItem title="my title" description = "desc"/></div>
+       <NewsItem title="my title" description = "desc" imageurl ="https://i.pinimg.com/736x/13/c4/23/13c423eeeede92d2b1f364488b29ffbb.jpg" newsurl = "TODO"/> </div>
        </div>
        {/* <NewsItem/>
        <NewsItem/>
